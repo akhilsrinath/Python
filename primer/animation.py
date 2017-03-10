@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import animation
 
-# First set up the figure, the axes and the plot element we want to animate
+# set up the figure, the axes and the plot element we want to animate
 
 fig = plt.figure()
 ax = plt.axes(xlim=(0,2), ylim=(-2,2))
