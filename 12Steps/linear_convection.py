@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import time,sys            
+# import time,sys
 
 ''' We define an evenly spaced grid of points within a spatial domain
     that is 2 units of length wide, i.e., x_i ∈ (0,2). We define a variable nx,
