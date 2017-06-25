@@ -32,7 +32,7 @@ print(u)
 
 ''' implementing the discretization of the convection equation using a finite difference scheme.'''
 
-un = np.ones(nx)     # initializing a temporary variable un
+un = np.ones(nx)     # temporary variable initialized 
 
 for n in range(nt):    # 0 to nt -> will run nt times
     un = u.copy()    # copy the existing values of u into un
