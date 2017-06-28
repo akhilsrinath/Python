@@ -42,6 +42,6 @@ for n in range(nt):    # 0 to nt -> will run nt times
     for i in range(1,nx):    # 1 to nx    : taking initial conditions into consideration
         u[i] = un[i] - c * (dt/dx) * ( un[i] - un[i-1] )     # applying the operation to every element in u.
 
-
+print(u)
 plt.plot(np.linspace(0,2,nx), u)
 plt.show()
