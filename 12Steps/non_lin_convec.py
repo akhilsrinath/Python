@@ -43,6 +43,6 @@ for n in range(nt):    # 0 to nt -> will run nt times
     un = u.copy()    # copy the existing values of u into un
     for i in range(1,nx):    # 1 to nx    : taking initial conditions into consideration
         u[i] = un[i] - un[i] * (dt/dx) * (un[i] - un[i-1])     # applying the operation to every element in u.
-
+print(u)
 plt.plot(np.linspace(0,2,nx), u)
 plt.show()
