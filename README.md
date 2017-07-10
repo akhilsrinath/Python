@@ -10,4 +10,4 @@ Some Python projects I have worked on
    
 3. primer : Solutions to a few exercises from the book " A Primer on Scentific Computing with Python " by Hans Petter Langtangen.
 
-4. zipf : Implementing Zipf's Law.
+4. zipf : Implementing Zipf's Law. https://en.wikipedia.org/wiki/Zipf%27s_law
