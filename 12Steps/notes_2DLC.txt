@@ -1,0 +1,17 @@
+3D plotting notes :
+To plot 3D graphs we have used the Axes3D library
+
+    from mpl_toolkits.mplot3d import Axes3D
+
+    fig = plt.figure(figsize = (11,7), dpi = 100)
+    ax = fig.gca(projection = '3d')
+    surf = ax.plot(X,Y, u[:])
+
+The first line creates a figure window. figsize and dpi are optional and simply specify the size and resolution.
+
+The X and Y values that you pass to plot_surface are not the 1-D vectors x and y.
+In order to use matplotlibs 3D plotting functions, you need to generate a grid of x, y values which correspond to each coordinate
+in the plotting frame.
+This coordinate grid is generated using the numpy function meshgrid.
+
+    X, Y = np.meshgrid(x, y)
