@@ -7,15 +7,15 @@
 
     Discretized Equation :
 
-        P_i,j(n) = ((P_i+1,j(n) + P_i-1,j(n))*dy**2 + (P_i,j+1(n) + P_i,j-1(n))*dx**2)/2*(dx**2 + dy**2)
+        p_i,j(n) = ((p_i+1,j(n) + p_i-1,j(n))*dy**2 + (p_i,j+1(n) + p_i,j-1(n))*dx**2)/2*(dx**2 + dy**2)
 
     Initial Conditions :
 
-        P = 0 everywhere in (0,2)X(0,1)
+        p = 0 everywhere in (0,2)X(0,1)
 
     Boundary Conditions :
 
-        P = 0 @ x = 0,2 and y = 0,1
+        p = 0 @ x = 0,2 and y = 0,1
 
     The source term 'b' consists of two initial spikes inside the domain, as follows:
 
